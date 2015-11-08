@@ -1,0 +1,14 @@
+body {
+	font-family: 'acumin-pro';
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	color: #2E2E2E;
+}
+
+img {
+	max-width: 100%;
+}
