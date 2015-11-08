@@ -1,14 +1,40 @@
 body {
-	font-family: 'acumin-pro';
-	margin: 0;
+  font-family: 'acumin-pro';
+  font-weight: 500;
+  margin: 0;
 }
 
 h1 {
-	font-size: 36px;
-	text-align: center;
-	color: #2E2E2E;
+  font-size: 36px;
+  margin: 12px 0;
+  text-align: center;
+  color: #2E2E2E;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
+}
+
+ul {
+  padding: 12px;
+  margin: 0;
+}
+
+li {
+	margin: 12px 0;
+}
+
+.button {
+  display: block;
+
+  font-size: 24px;
+  padding: 16px;
+
+  text-align: center;
+
+  border-radius: 4px;
+
+  color: #ffffff;
+  background-color: #4A90E2;
+  text-decoration: none;
 }
