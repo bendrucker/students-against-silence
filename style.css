@@ -12,12 +12,16 @@ h1 {
 }
 
 img {
+	display: block;
   max-width: 100%;
+  max-height: 320px;
+  margin: 0 auto;
 }
 
 ul {
-  padding: 12px;
-  margin: 0;
+  margin: 24px;
+  padding: 0;
+  list-style: none;
 }
 
 li {
@@ -37,4 +41,25 @@ li {
   color: #ffffff;
   background-color: #4A90E2;
   text-decoration: none;
+}
+
+@media (min-width: 960px) {
+	footer {
+		padding: 24px;
+	}
+
+	ul {
+		max-width: 1024px;
+		margin: 48px auto;
+	}
+
+	li {
+		display: inline-block;
+		width: calc(33% - 12px);
+		margin: 6px;
+	}
+
+	.button {
+		font-size: 28px;
+	}
 }
